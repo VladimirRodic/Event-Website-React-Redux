@@ -5,13 +5,10 @@ class EventsList extends React.Component {
   render() {
     return (
       <div>
-        <h1>EventsListComponent</h1>
-        <div>
+        <div className="eventsList">
           <EventSquare />
           <EventSquare />
           <EventSquare />
-        </div>
-        <div>
           <EventSquare />
           <EventSquare />
           <EventSquare />

@@ -1,9 +1,9 @@
 import React from "react";
 import Menu from "./Menu";
 import EventFilter from "./EventFilter";
-import EventsList from "./EventsList";
+import EventsListLine from "./EventsListLine";
 
-class EventMain extends React.Component {
+class EventMainLine extends React.Component {
   render() {
     return (
       <div className="eventMain">
@@ -15,7 +15,7 @@ class EventMain extends React.Component {
           <EventFilter />
         </div>
         <div>
-          <EventsList />
+          <EventsListLine />
         </div>
         <div className="addEvent">
           <div className="addEventButton">+</div>
@@ -25,4 +25,4 @@ class EventMain extends React.Component {
   }
 }
 
-export default EventMain;
+export default EventMainLine;

@@ -4,12 +4,13 @@ import Button from "../Button";
 class EventLine extends React.Component {
   render() {
     return (
-      <div>
-        <h1>EventLineComponent</h1>
-        <div>
-          TITLE Description Author Date & Time Numer of Atendees
-          <Button />
-        </div>
+      <div class="eventsLine">
+        <div>TITLE</div>
+        <div> Description</div>
+        <div>Author</div>
+        <div>Date & Time</div>
+        <div>Numer of Atendees</div>
+        <Button />
       </div>
     );
   }

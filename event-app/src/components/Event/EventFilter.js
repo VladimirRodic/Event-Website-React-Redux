@@ -3,10 +3,16 @@ import React from "react";
 class EventFilter extends React.Component {
   render() {
     return (
-      <div>
-        <h1>EventFilterComponent</h1>
-        <div>ALL EVENTS FUTURE EVENTS PAST EVENTS</div>
-        <div>SQUARE LINE</div>
+      <div className="eventFilter">
+        <div className="eventsPerTime">
+          <div>ALL EVENTS</div>
+          <div>FUTURE EVENTS</div>
+          <div>PAST EVENTS</div>
+        </div>
+        <div className="eventsView">
+          <div className="active">Sq</div>
+          <div>Li</div>
+        </div>
       </div>
     );
   }

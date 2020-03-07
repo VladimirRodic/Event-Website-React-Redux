@@ -8,6 +8,7 @@ import UserLogin from "./User/UserLogin";
 import Register from "./User/Register";
 
 import EventMain from "./Event/EventMain";
+import EventMainLine from "./Event/EventMainLine";
 import EventDetail from "./Event/EventDetail";
 import EditEvent from "./Event/EditEvent";
 import CreateEvent from "./Event/CreateEvent";
@@ -24,6 +25,7 @@ class App extends React.Component {
           <Route path="/register" component={Register} />
 
           <Route path="/events" exact component={EventMain} />
+          <Route path="/events/line" exact component={EventMainLine} />
           <Route path="/event/:id" component={EventDetail} />
           <Route path="/event/edit/:id" component={EditEvent} />
           <Route path="/event/create" component={CreateEvent} />

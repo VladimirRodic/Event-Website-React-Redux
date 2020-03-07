@@ -6,9 +6,9 @@ import Menu from "./Menu";
 class EventDetail extends React.Component {
   render() {
     return (
-      <div>
-        <h1>EventDetailComponent</h1>
-        <div>
+      <div className="eventDetail">
+        <div className="header">
+          <div className="logo">Logo</div>
           <Menu page="events" />
         </div>
         <div>

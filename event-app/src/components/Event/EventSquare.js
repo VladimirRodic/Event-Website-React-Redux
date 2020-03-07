@@ -4,8 +4,7 @@ import Button from "../Button";
 class EventSquare extends React.Component {
   render() {
     return (
-      <div>
-        <h1>EventSquareComponent</h1>
+      <div className="eventSquare">
         <div>
           Date & Time
           <br />

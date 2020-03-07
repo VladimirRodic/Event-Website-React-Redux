@@ -1,4 +1,114 @@
 div {
   border: 1px solid black;
+}
+
+/* Events General */
+.addEvent {
+  display: flex;
+  justify-content: flex-end;
+
   margin: 5px;
+}
+
+.addEvent .addEventButton {
+  background-color: black;
+  color: white;
+  cursor: context-menu;
+
+  display: flex;
+  justify-content: center;
+
+  /* align-items not centering */
+  align-items: center;
+
+  height: 21.6px;
+  width: 21.6px;
+}
+
+.addEvent .addEventButton:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Event Main */
+.eventMain .header {
+  display: flex;
+  align-items: center;
+}
+
+.eventMain .header .logo {
+  justify-content: flex-start;
+}
+
+.eventMain .header .menu {
+  display: flex;
+  margin-left: auto;
+  flex-direction: row;
+}
+
+/* Event Detail */
+
+.eventDetail .header {
+  display: flex;
+  align-items: center;
+}
+
+.eventDetail .header .logo {
+  justify-content: flex-start;
+}
+
+.eventDetail .header .menu {
+  display: flex;
+  margin-left: auto;
+  flex-direction: row;
+}
+
+/* Event Filter */
+
+.eventFilter {
+  display: flex;
+  align-items: center;
+}
+
+.eventFilter > * {
+  display: flex;
+  flex-direction: row;
+}
+
+.eventsView {
+  color: gray;
+}
+
+.eventsView .active {
+  color: black;
+}
+
+.eventFilter .eventsPerTime {
+}
+
+.eventFilter .eventsView {
+  margin-left: auto;
+}
+
+.eventsList {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventsList .eventSquare {
+  width: 33%;
+}
+
+.eventsListLine {
+  display: flex;
+  flex-direction: column;
+}
+
+.eventsListLine .eventsLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
